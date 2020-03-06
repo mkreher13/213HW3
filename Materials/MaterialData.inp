@@ -1,0 +1,54 @@
+mat 1
+name fuel1
+numGroups 2
+diffcoef 1.3 0.5
+absXS 0.0098 0.114
+fisXS 0.006 0.195
+Gscat1 0.0 0.0220
+Gscat2 0.0 0.0
+
+end 0
+
+mat 2  
+name fuel2  
+numGroups 2
+diffcoef 1.3 0.5
+absXS 0.0105 0.134
+fisXS 0.008 0.238
+Gscat1 0.0 0.022
+Gscat2 0.0 0.0
+
+end 0
+
+mat 3
+name water
+numGroups 2
+diffcoef 1.5 0.5
+absXS 0.0002 0.01
+fisXS 0.0 0.0
+Gscat1 0.0 0.032
+Gscat2 0.0 0.0
+
+end 0
+
+mat 4
+name absorber
+numGroups 2
+diffcoef 1.3 0.5
+absXS 999.99 999.9
+fisXS 0.0 0.0
+Gscat1 0.0 0.02
+Gscat2 0.0 0.0
+
+end 0                    
+       
+mat 5     
+name enriched_rod  
+numGroups 2
+diffcoef 1.3 0.5
+absXS 0.0098 0.118
+fisXS 0.006 0.195
+Gscat1 0.0 0.022
+Gscat2 0.0 0.0
+
+end 0 
