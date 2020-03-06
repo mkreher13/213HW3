@@ -1,0 +1,10 @@
+length 420
+numgroups 2
+numBins 420
+FisConvergeError 1e-8
+FluxConvergeError 1e-10
+deltaT 0.1
+Tend 50.0
+problem 2
+flux real
+method numpy
